@@ -3680,6 +3680,10 @@ public interface OdeMessages extends Messages {
   @Description("")
   String LongClickEvents();
 
+  @DefaultMessage("RequestFocus")
+  @Description("")
+  String RequestFocusMethods();
+
   @DefaultMessage("LostFocus")
   @Description("")
   String LostFocusEvents();
@@ -4676,6 +4680,10 @@ public interface OdeMessages extends Messages {
   @DefaultMessage("ClearLocations")
   @Description("")
   String ClearLocationsMethods();
+
+  @DefaultMessage("ClearCaches")
+  @Description("")
+  String ClearCachesMethods();
 
   @DefaultMessage("GoBack")
   @Description("")
